@@ -1,0 +1,7 @@
+Django
+google-api-python-client
+nltk
+emoji
+textblob
+statistics
+matplotlib
