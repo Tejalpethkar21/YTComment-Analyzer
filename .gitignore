@@ -1,30 +1,51 @@
-# Ignore virtual environment
-venv/
+# Ignore the config/settings.py file (contains sensitive API keys)
+config/settings.py
 
-# Ignore Python cache files
+# Ignore Python compiled files
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
+*$py.class
 
-# Ignore environment variables
-.env
-*.env
+# Ignore virtual environment files
+venv/
+.env/
+.env*/
+.env.local
+.env.development
+.env.production
 
-# Ignore compiled files
-*.pyc
-*.pyo
-*.pyd
+# Ignore IDE-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
 
-# Ignore database files
-*.sqlite3
-db.sqlite3
+# Ignore Python build and distribution files
+build/
+dist/
+*.egg-info/
+*.egg
 
-# Ignore Django migrations
-*/migrations/*.pyc
-*/migrations/*.pyo
-*/migrations/*.py
-!*/migrations/__init__.py
-
-# Ignore logs
+# Ignore log files
 *.log
 logs/
+
+# Ignore local development files
+local_settings.py
+local.db
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore coverage reports
+.coverage
+htmlcov/
+
+# Ignore cache directories
+.cache/
