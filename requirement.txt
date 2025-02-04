@@ -5,3 +5,4 @@ emoji
 textblob
 statistics
 matplotlib
+googletrans
