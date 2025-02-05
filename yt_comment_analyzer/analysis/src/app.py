@@ -6,6 +6,9 @@ from processing.cleaners import clean_text
 from analysis.sentiment import SentimentAnalyzer
 from analysis.emojis import EmojiAnalyzer
 from analysis.translateAnalyzer import TranslateSentimentAnalyzer
+import nltk
+nltk.download('vader_lexicon')
+
 
 
 class YouTubeCommentAnalyzer:
